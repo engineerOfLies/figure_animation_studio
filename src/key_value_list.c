@@ -14,9 +14,6 @@
 #include "gf2d_element_label.h"
 #include "gf2d_mouse.h"
 
-#include "level.h"
-#include "level_editor.h"
-#include "spawn.h"
 #include "windows_common.h"
 #include "key_value_list.h"
 

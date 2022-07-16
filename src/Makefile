@@ -10,13 +10,13 @@
 #
 
 # Linux
-PROJECT = glyph
+PROJECT = fas
 CC      = gcc
 
-LIB_LIST = ../gfc/libs/libgfc.a ../gfc/simple_json/libs/libsj.a ../gfc/simple_logger/libs/libsl.a 
+LIB_LIST = ../gameframework2d/libs/libgf2d.a ../gameframework2d/gfc/libs/libgfc.a ../gameframework2d/gfc/simple_json/libs/libsj.a ../gameframework2d/gfc/simple_logger/libs/libsl.a 
 OBJECTS = $(patsubst %.c,%.o,$(wildcard *.c))
 
-INC_PATHS = ../include ../gfc/include ../gfc/simple_logger/include ../gfc/simple_json/include
+INC_PATHS = ../include ../gameframework2d/include ../gameframework2d/gfc/include ../gameframework2d/gfc/simple_logger/include ../gameframework2d/gfc/simple_json/include
 INC_PARAMS =$(foreach d, $(INC_PATHS), -I$d)
 
 OBJECTS = $(patsubst %.c,%.o,$(wildcard *.c))

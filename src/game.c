@@ -21,7 +21,6 @@
 
 static int _done = 0;
 static int _begin = 0;
-static int _paused = 0;
 static Window *_quit = NULL;
 extern int __DebugMode;
 
@@ -59,8 +58,6 @@ void exitCheck()
 int main(int argc, char * argv[])
 {
     /*variable declarations*/
-    int windowsUpdated = 0;
-        
     init_all(argc,argv);
         
     armature_editor();
@@ -71,7 +68,7 @@ int main(int argc, char * argv[])
         gfc_input_update();
         gf2d_mouse_update();
         /*update things here*/
-        windowsUpdated = gf2d_windows_update_all();
+        gf2d_windows_update_all();
                                 
         gf2d_graphics_clear_screen();
         
@@ -81,13 +78,12 @@ int main(int argc, char * argv[])
         gf2d_mouse_draw();
         
 
-        gf2d_grahics_next_frame();// render current draw frame and skip to the next frame
+        gf2d_graphics_next_frame();// render current draw frame and skip to the next frame
         
         if ((gfc_input_command_down("exit"))&&(_quit == NULL))
         {
             exitCheck();
         }
-        if (fpsMode)slog("Rendering at %f FPS",gf2d_graphics_get_frames_per_second());
     }
     slog("---==== END ====---");
     return 0;
@@ -102,10 +98,6 @@ void init_all(int argc, char *argv[])
         if (strcmp(argv[i],"--fullscreen") == 0)
         {
             fullscreen = 1;
-        }
-        else if (strcmp(argv[i],"--fps") == 0)
-        {
-            fpsMode = 1;
         }
         else if (strcmp(argv[i],"--debug") == 0)
         {

@@ -13,8 +13,6 @@
 #include "gf2d_armature.h"
 #include "gf2d_figure.h"
 
-#include "level.h"
-#include "level_editor.h"
 #include "windows_common.h"
 #include "armature_editor.h"
 

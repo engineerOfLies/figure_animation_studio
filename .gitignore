@@ -52,8 +52,8 @@ Mkfile.old
 dkms.conf
 
 #this program's executable
-glyph
-glyph.exe
+fas
+fas.exe
 
 #logs
 *.log
