@@ -1,0 +1,154 @@
+{
+    "actor":
+    {
+        "sprite": "images/sprites/glyph_figure.png",
+        "frameWidth": 128,
+        "frameHeight": 128,
+        "framesPerLine": 1,
+        "scale": [1,1],
+        "center":[64,64],
+        "actionList":
+        [
+            {
+                "action": "head1",
+                "startFrame": 0,
+                "endFrame": 0,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "head2",
+                "startFrame": 1,
+                "endFrame": 1,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "body1",
+                "startFrame": 2,
+                "endFrame": 2,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "body2",
+                "startFrame": 14,
+                "endFrame": 14,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "body3",
+                "startFrame": 3,
+                "endFrame": 3,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "body4",
+                "startFrame": 15,
+                "endFrame": 15,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "body5",
+                "startFrame": 17,
+                "endFrame": 17,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "leg1",
+                "startFrame": 4,
+                "endFrame": 4,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "leg2",
+                "startFrame": 5,
+                "endFrame": 5,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "shin1",
+                "startFrame": 6,
+                "endFrame": 6,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "shin2",
+                "startFrame": 7,
+                "endFrame": 7,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "foot1",
+                "startFrame": 8,
+                "endFrame": 8,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "foot2",
+                "startFrame": 9,
+                "endFrame": 9,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "arm1",
+                "startFrame": 10,
+                "endFrame": 10,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "arm2",
+                "startFrame": 11,
+                "endFrame": 11,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "arm3",
+                "startFrame": 11,
+                "endFrame": 11,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "arm4",
+                "startFrame": 16,
+                "endFrame": 16,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "arm5",
+                "startFrame": 11,
+                "endFrame": 11,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "forearm1",
+                "startFrame": 12,
+                "endFrame": 12,
+                "frameRate": 0,
+                "type": "loop"
+            },
+            {
+                "action": "forearm2",
+                "startFrame": 13,
+                "endFrame": 13,
+                "frameRate": 0,
+                "type": "loop"
+            }
+        ]
+    }
+}

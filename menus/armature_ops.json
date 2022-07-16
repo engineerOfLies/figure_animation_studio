@@ -1,0 +1,139 @@
+{
+"window":{
+    "color" : [255,255,255, 255],
+    "dimensions" : [0,64,185,320],
+    "elements":
+    [
+      {
+        "type": "list",
+        "name": "list",
+        "id" : 0,
+        "bounds": [10,10,1,1],
+        "color" : [255,255,255,255],
+        "style": "vertical",
+        "item_size" : [100,36],
+        "elements":
+        [
+            {
+            "type": "label",
+            "id" : 1,
+            "bounds": [0,0,1,40],
+            "color" : [255,255,255,255],
+            "text":"Level File",
+            "justify" : "center",
+            "align" : "middle",
+            "style":"H1"
+            },
+            {
+            "type": "button",
+            "name" : "new_armature",
+            "bounds": [0,0,160,48],
+            "label" :
+                {
+                "type": "label",
+                "bounds": [0,0,160,48],
+                "color" : [255,255,200,255],
+                "text":"New Armature",
+                "justify" : "left",
+                "align" : "middle",
+                "style":"small"
+                }
+            },
+            {
+            "type": "button",
+            "name" : "load_armature",
+            "bounds": [0,0,160,48],
+            "hotkey":"load",
+            "label" :
+                {
+                "type": "label",
+                "bounds": [0,0,160,48],
+                "color" : [255,255,200,255],
+                "text":"Load Armature",
+                "justify" : "left",
+                "align" : "middle",
+                "style":"small"
+                }
+            },
+            {
+            "type": "button",
+            "name" : "save_armature",
+            "bounds": [0,0,160,48],
+            "hotkey":"save",
+            "label" :
+                {
+                "type": "label",
+                "bounds": [0,0,160,48],
+                "color" : [255,255,200,255],
+                "text":"Save Armature",
+                "justify" : "left",
+                "align" : "middle",
+                "style":"small"
+                }
+            },
+            {
+            "type": "button",
+            "name" : "new_figure",
+            "bounds": [0,0,160,48],
+            "label" :
+                {
+                "type": "label",
+                "bounds": [0,0,160,48],
+                "color" : [255,255,200,255],
+                "text":"New Figure",
+                "justify" : "left",
+                "align" : "middle",
+                "style":"small"
+                }
+            },
+            {
+            "type": "button",
+            "name" : "load_figure",
+            "bounds": [0,0,160,48],
+            "label" :
+                {
+                "type": "label",
+                "bounds": [0,0,160,48],
+                "color" : [255,255,200,255],
+                "text":"Load Figure",
+                "justify" : "left",
+                "align" : "middle",
+                "style":"small"
+                }
+            },
+            {
+            "type": "button",
+            "name" : "save_figure",
+            "bounds": [0,0,160,48],
+            "label" :
+                {
+                "type": "label",
+                "bounds": [0,0,160,48],
+                "color" : [255,255,200,255],
+                "text":"Save Figure",
+                "justify" : "left",
+                "align" : "middle",
+                "style":"small"
+                }
+            },
+            {
+            "type": "button",
+            "name" : "quit",
+            "bounds": [0,0,160,48],
+            "label" :
+                {
+                "type": "label",
+                "bounds": [0,0,160,48],
+                "color" : [255,255,200,255],
+                "text":"quit",
+                "justify" : "left",
+                "align" : "middle",
+                "style":"small"
+                }
+            }
+        ]
+      }
+    ]
+  }
+}
+

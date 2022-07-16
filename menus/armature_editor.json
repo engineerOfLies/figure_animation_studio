@@ -1,0 +1,193 @@
+{
+"window":{
+    "color" : [255,255,255,255],
+    "dimensions" : [0,0,1,64],
+    "elements":
+    [
+        {
+        "type": "list",
+        "name": "list",
+        "id" : 0,
+        "bounds": [32,0,1,1],
+        "style": "horizontal",
+        "item_size" : [128,40],
+        "packed":true,
+        "elements":
+        [
+            {
+            "type": "button",
+            "name":"file",
+            "bounds": [0,0,160,64],
+            "hotkey":"file",
+            "label" :
+                {
+                "type": "label",
+                "id" : 111,
+                "bounds": [0,0,160,64],
+                "text":"File",
+                "justify" : "center",
+                "align" : "middle",
+                "style":"H5"
+                },
+            "actor" :
+                {
+                "type": "actor",
+                "id" : 112,
+                "bounds": [0,0,160,64],
+                "actor" : "actors/button.actor"
+                }
+            },
+            {
+            "type": "button",
+            "name":"edit",
+            "bounds": [0,0,160,64],
+            "hotkey":"edit",
+            "label" :
+                {
+                "type": "label",
+                "id" : 411,
+                "bounds": [0,0,160,64],
+                "text":"Edit",
+                "justify" : "center",
+                "align" : "middle",
+                "style":"H5"
+                },
+            "actor" :
+                {
+                "type": "actor",
+                "id" : 412,
+                "bounds": [0,0,160,64],
+                "actor" : "actors/button.actor"
+                }
+            },
+            {
+                "type": "label",
+                "name": "mode",
+                "id" : 2,
+                "bounds": [0,10,250,40],
+                "color" : [255,255,255,255],
+                "text":"?",
+                "justify" : "center",
+                "align" : "middle",
+                "style":"H1"
+            },
+            {
+            "type": "button",
+            "name" : "background",
+            "bounds": [0,0,160,64],
+            "hotkey":"background",
+            "label" :
+                {
+                "type": "label",
+                "id" : 511,
+                "bounds": [0,0,160,64],
+                "text":"Background",
+                "justify" : "center",
+                "align" : "middle",
+                "style":"H5"
+                },
+            "actor" :
+                {
+                "type": "actor",
+                "id" : 512,
+                "bounds": [0,0,160,64],
+                "actor" : "actors/button.actor"
+                }
+            },
+            {
+            "type": "button",
+            "name" : "scaleback",
+            "bounds": [0,0,160,60],
+            "hotkey":"background",
+            "label" :
+                {
+                "type": "label",
+                "id" : 611,
+                "bounds": [0,0,160,60],
+                "color" : [255,255,200,255],
+                "text":"scale",
+                "justify" : "left",
+                "align" : "middle",
+                "style":"small"
+                }
+            }
+        ]
+        },
+        {
+            "type": "button",
+            "name" : "move",
+            "hotkey":"move"
+        },
+        {
+            "type": "button",
+            "name" : "mode_next",
+            "hotkey":"mode"
+        },
+        {
+            "type": "button",
+            "name" : "grab",
+            "hotkey":"grab"
+        },
+        {
+            "type": "button",
+            "name" : "delete",
+            "hotkey":"delete"
+        },
+        {
+            "type": "button",
+            "name" : "duplicate",
+            "hotkey":"duplicate"
+        },
+        {
+            "type": "button",
+            "name" : "clear_transform",
+            "hotkey":"clear_transform"
+        },
+        {
+            "type": "button",
+            "name": "add",
+            "hotkey":"add"
+        },
+        {
+            "type": "button",
+            "name" : "rotate",
+            "hotkey":"rotate"
+        },
+        {
+            "type": "button",
+            "name" : "lock_x",
+            "hotkey":"lock_x"
+        },
+        {
+            "type": "button",
+            "name" : "lock_y",
+            "hotkey":"lock_y"
+        },
+        {
+            "type": "button",
+            "name" : "copy",
+            "hotkey":"copy"
+        },
+        {
+            "type": "button",
+            "name" : "paste",
+            "hotkey":"paste"
+        },
+        {
+            "type": "button",
+            "name" : "flip",
+            "hotkey":"flip"
+        },
+        {
+            "type": "button",
+            "name" : "zoom_reset",
+            "hotkey":"zoom_reset"
+        },
+        {
+            "type": "button",
+            "name" : "save_frame",
+            "hotkey":"save_frame"
+        }
+    ]
+    }
+}

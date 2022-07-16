@@ -1,0 +1,214 @@
+{
+  "window":{
+    "dimensions":[ 0, 0, 355, 320 ],
+    "align":"middle",
+    "justify":"center",
+    "elements":[
+      {
+        "type":"list",
+        "bounds":[ 8, 0, 1, 1 ],
+        "style":"vertical",
+        "item_size":[ 1, 48 ],
+        "elements":[
+          {
+            "type":"list",
+            "bounds":[ 0, 0, 0.5, 64 ],
+            "style":"horizontal",
+            "item_size":[ 168, 64 ], "elements":[
+              {
+                "type":"label",
+                "bounds":[ 0.01, 0, 0.98, 1 ], 
+                "text":"Action Name: ",
+                "justify":"left",
+                "align":"middle",
+                "style":"H5"
+              },
+              {
+                "type":"entry",
+                "id" : 1,
+                "name":"action_name",
+                "bounds":[ 0, 4, 1, 40 ],
+                "label":{
+                  "type":"label",
+                  "bounds": [0.01,0,0.98,1],
+                  "text":"?",
+                  "color" : [255,255,255,255],
+                  "justify":"left",
+                  "align":"middle",
+                  "style":"small"
+                }
+              }
+            ]
+          },
+          {
+            "type":"list",
+            "bounds":[ 0, 0, 0.5, 64 ],
+            "style":"horizontal",
+            "item_size":[ 168, 64 ],
+            "elements":[
+              {
+                "type":"label",
+                "bounds":[ 0.01, 0, 0.98, 1 ],
+                "text":"Start Frame: ",
+                "justify":"left",
+                "align":"middle",
+                "style":"H5"
+              },
+              {
+                "type":"entry",
+                "id" : 2,
+                "name":"start_frame",
+                "bounds":[ 0, 4, 1, 40 ],
+                "label":{
+                  "type":"label",
+                  "bounds":[ 2, 2, 0.98, 1 ],
+                  "text":"?",
+                  "justify":"left",
+                  "align":"middle",
+                  "style":"small"
+                }
+              }
+            ]
+          },
+          {
+            "type":"list",
+            "bounds":[ 0, 0, 0.5, 64 ],
+            "style":"horizontal",
+            "item_size":[ 168, 64 ],
+            "elements":[
+              {
+                "type":"label",
+                "bounds":[ 0.01, 0, 0.98, 1 ],
+                "text":"End Frame: ",
+                "justify":"left",
+                "align":"middle",
+                "style":"H5"
+              },
+              {
+                "type":"entry",
+                "id" : 3,
+                "name":"end_frame",
+                "bounds":[ 0, 4, 1, 40 ],
+                "label":{
+                  "type":"label",
+                  "bounds":[ 2, 2, 0.98, 1 ],
+                  "text":"?",
+                  "justify":"left",
+                  "align":"middle",
+                  "style":"small"
+                }
+              }
+            ]
+          },
+          {
+            "type":"list",
+            "bounds":[ 0, 0, 0.5, 64 ],
+            "style":"horizontal",
+            "item_size":[ 168, 64 ],
+            "elements":[
+              {
+                "type":"label",
+                "bounds":[ 0.01, 0, 0.98, 1 ],
+                "text":"Frame Rate: ",
+                "justify":"left",
+                "align":"middle",
+                "style":"H5"
+              },
+              {
+                "type":"entry",
+                "id" : 4,
+                "name":"frame_rate",
+                "bounds":[ 0, 4, 1, 40 ],
+                "label":{
+                  "type":"label",
+                  "bounds":[ 2, 2, 0.98, 1 ],
+                  "text":"?",
+                  "justify":"left",
+                  "align":"middle",
+                  "style":"small"
+                }
+              }
+            ]
+          },
+          {
+            "type":"list",
+            "bounds":[ 0, 0, 0.5, 64 ],
+            "style":"horizontal",
+            "item_size":[ 168, 64 ],
+            "elements":[
+              {
+                "type":"label",
+                "bounds":[ 0.01, 0, 0.98, 1 ],
+                "text":"Action Type: ",
+                "justify":"left",
+                "align":"middle",
+                "style":"H5"
+              },
+              {
+                "type":"entry",
+                "id" : 5,
+                "name":"action_type",
+                "bounds":[ 0, 4, 1, 40 ],
+                "label":{
+                  "type":"label",
+                  "bounds":[ 2, 2, 0.98, 1 ],
+                  "text":"?",
+                  "justify":"left",
+                  "align":"middle",
+                  "style":"small"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type":"list",
+        "bounds":[ 20, -100, 400, 80 ],
+        "style":"horizontal",
+        "item_size":[ 168, 64 ],
+        "packed":true,
+        "elements":[
+          {
+            "type":"button",
+            "name":"ok",
+            "bounds":[ 0, 0, 168, 64 ],
+            "hotkey":"ok",
+            "label":{
+              "type":"label",
+              "bounds":[ 0, 0, 168, 64 ],
+              "text":"OK",
+              "justify":"center",
+              "align":"middle",
+              "style":"H5"
+            },
+            "actor":{
+              "type":"actor",
+              "bounds":[ 0, 0, 168, 64 ],
+              "actor":"actors/button.actor"
+            }
+          },
+          {
+            "type":"button",
+            "name":"cancel",
+            "bounds":[ 0, 0, 164, 68 ],
+            "hotkey":"cancel",
+            "label":{
+              "type":"label",
+              "bounds":[ 0, 0, 168, 64 ],
+              "text":"Cancel",
+              "align":"middle",
+              "justify":"center",
+              "style":"H5"
+            },
+            "actor":{
+              "type":"actor",
+              "bounds":[ 0, 0, 168, 64 ],
+              "actor":"actors/button.actor"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

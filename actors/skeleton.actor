@@ -1,0 +1,77 @@
+{
+    "actor":
+    {
+        "sprite": "images/sprites/zombie_parts.png",
+        "frameWidth": 128,
+        "frameHeight": 128,
+        "framesPerLine": 1,
+        "scale": [1,1],
+        "center":[64,64],
+        "actionList":
+        [
+            {
+                "action": "head",
+                "startFrame": 7,
+                "endFrame": 7,
+                "frameRate": 0,
+                "type": "none"
+            },
+            {
+                "action": "body",
+                "startFrame": 8,
+                "endFrame": 8,
+                "frameRate": 0,
+                "type": "none"
+            },
+            {
+                "action": "leg",
+                "startFrame": 9,
+                "endFrame": 9,
+                "frameRate": 0,
+                "type": "none"
+            },
+            {
+                "action": "shin",
+                "startFrame": 10,
+                "endFrame": 10,
+                "frameRate": 0,
+                "type": "none"
+            },
+            {
+                "action": "foot",
+                "startFrame": 11,
+                "endFrame": 11,
+                "frameRate": 0,
+                "type": "none"
+            },
+            {
+                "action": "arm",
+                "startFrame": 12,
+                "endFrame": 12,
+                "frameRate": 0,
+                "type": "none"
+            },
+            {
+                "action": "forearm",
+                "startFrame": 13,
+                "endFrame": 13,
+                "frameRate": 0,
+                "type": "none"
+            },
+            {
+                "action": "neck",
+                "startFrame": 14,
+                "endFrame": 14,
+                "frameRate": 0,
+                "type": "none"
+            },
+            {
+                "action": "icon",
+                "startFrame": 15,
+                "endFrame": 15,
+                "frameRate": 0,
+                "type": "none"
+            }
+        ]
+    }
+}

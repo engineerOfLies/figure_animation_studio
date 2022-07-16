@@ -1,0 +1,222 @@
+{
+"window":{
+    "color" : [255,255,255, 255],
+    "dimensions" : [0,0,640,320],
+    "justify" : "center",
+    "align" : "middle",
+    "elements":
+    [
+      {
+        "type": "actor",
+        "name" : "preview",
+        "align" : "middle",
+        "bounds": [500,110,128,128],
+        "backgroundDraw":1,
+        "backgroundColor" : [128,128,128,255]
+      },
+      {
+        "type":"list",
+        "packed":true,
+        "justify":"center",
+        "style":"horizontal",
+        "bounds":[
+            0,
+            208,
+            140,
+            64
+        ],
+        "item_size":[
+            64,
+            64
+        ],
+        "elements":[
+            {
+            "type": "label",
+            "bounds": [0,20,1,30],
+            "text":"Draw Order:",
+            "justify" : "center",
+            "style":"H4"
+            },
+            {
+            "type":"button",
+            "name":"lower_draw_order",
+            "bounds":[
+                0,
+                0,
+                40,
+                64
+            ],
+            "hotkey":"prev_frame",
+            "actor":{
+                "type":"actor",
+                "bounds":[
+                    0,
+                    0,
+                    40,
+                    64
+                ],
+                "actor":"actors/arrow_button.json"
+            }
+            },
+            {
+            "type":"label",
+            "name":"draw_order",
+            "bounds":[
+                0,
+                10,
+                40,
+                40
+            ],
+            "color":[
+                255,
+                255,
+                255,
+                255
+            ],
+            "text":"0",
+            "justify":"center",
+            "align":"middle",
+            "style":"H1"
+            },
+            {
+            "type":"button",
+            "name":"raise_draw_order",
+            "bounds":[
+                40,
+                0,
+                40,
+                64
+            ],
+            "hotkey":"next_frame",
+            "actor":{
+                "type":"actor",
+                "bounds":[
+                    0,
+                    0,
+                    40,
+                    64
+                ],
+                "flip":[
+                    1,
+                    0
+                ],
+                "actor":"actors/arrow_button.json"
+            }
+            }
+        ]
+      },
+      {
+        "type": "list",
+        "name": "list",
+        "bounds": [0.01,0.01,0.99,0.99],
+        "style": "vertical",
+        "packed":true,
+        "item_size" : [200,40],
+        "elements":
+        [
+            {
+            "type": "label",
+            "name": "title",
+            "bounds": [0,5,1,30],
+            "text":"Figure Link",
+            "justify" : "center",
+            "style":"H1"
+            },
+            {
+            "type": "label",
+            "name": "bonename",
+            "bounds": [0,0,1,40],
+            "text":"<bonename>",
+            "justify" : "center",
+            "style":"normal"
+            },
+            {
+            "type": "button",
+            "name" : "actor_button",
+            "bounds": [0,0,300,40],
+            "hotkey":"background",
+            "label" :
+                {
+                "type": "label",
+                "name":"actorname",
+                "bounds": [0,0,300,40],
+                "color":[255,255,0,255],
+                "text":"<load actor>",
+                "justify" : "left",
+                "align" : "middle",
+                "style":"small"
+                }
+            },
+            {
+            "type": "button",
+            "name" : "action_button",
+            "bounds": [0,0,300,40],
+            "hotkey":"background",
+            "label" :
+                {
+                "type": "label",
+                "name":"actionname",
+                "bounds": [0,0,300,40],
+                "color":[255,255,0,255],
+                "text":"<set action>",
+                "justify" : "left",
+                "align" : "middle",
+                "style":"small"
+                }
+            },
+            {
+            "type": "list",
+            "bounds": [300,100,0.5,64],
+            "style": "horizontal",
+            "item_size" : [168,64],
+            "elements":
+            [
+                {
+                "type": "button",
+                "name": "OK",
+                "bounds": [0,0,168,64],
+                "hotkey":"ok",
+                "label" :
+                    {
+                    "type": "label",
+                    "bounds": [0,0,168,64],
+                    "text":"OK",
+                    "justify" : "center",
+                    "align" : "middle",
+                    "style":"H5"
+                    },
+                "actor" :
+                    {
+                    "type": "actor",
+                    "bounds": [0,0,168,64],
+                    "actor" : "actors/button.actor"
+                    }
+                },
+                {
+                "type": "button",
+                "name": "cancel",
+                "bounds": [0,0,164,68],
+                "hotkey":"cancel",
+                "label" :
+                    {
+                    "type": "label",
+                    "bounds": [0,0,168,64],
+                    "text":"Cancel",
+                    "align" : "middle",
+                    "justify" : "center",
+                    "style":"H5"
+                    },
+                "actor" :
+                    {
+                    "type": "actor",
+                    "bounds": [0,0,168,64],
+                    "actor" : "actors/button.actor"
+                    }
+                }
+            ]
+            }
+        ]
+      }
+    ]
+    }
+}
