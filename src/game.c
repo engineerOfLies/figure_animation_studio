@@ -15,8 +15,8 @@
 #include "gf2d_figure.h"
 #include "gf2d_lighting.h"
 #include "gf2d_camera.h"
+#include "gf2d_windows_common.h"
 
-#include "windows_common.h"
 #include "armature_editor.h"
 
 static int _done = 0;

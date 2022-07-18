@@ -14,9 +14,8 @@
 #include "gf2d_actor.h"
 #include "gf2d_armature.h"
 #include "gf2d_figure.h"
+#include "gf2d_windows_common.h"
 
-
-#include "windows_common.h"
 #include "armature_editor.h"
 #include "armature_ops.h"
 #include "armature_inspector.h"

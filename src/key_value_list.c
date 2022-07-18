@@ -13,8 +13,8 @@
 #include "gf2d_element_button.h"
 #include "gf2d_element_label.h"
 #include "gf2d_mouse.h"
+#include "gf2d_windows_common.h"
 
-#include "windows_common.h"
 #include "key_value_list.h"
 
 typedef struct

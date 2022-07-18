@@ -13,8 +13,8 @@
 #include "gf2d_element_actor.h"
 #include "gf2d_draw.h"
 #include "gf2d_mouse.h"
+#include "gf2d_windows_common.h"
 
-#include "windows_common.h"
 #include "armature_inspector.h"
 #include "figure_link_menu.h"
 
